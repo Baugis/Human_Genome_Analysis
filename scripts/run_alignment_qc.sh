@@ -9,7 +9,7 @@ set -euo pipefail
 
 mkdir -p qc/rseqc qc/deeptools qc/multiqc
 BED="ref/gencode.v50.annotation.bed"
-PC_BED="ref/gencode.v50.protein_coding.bed"
+PC_BED="ref/gencode.v50.pc_2k.bed"
 BAMS="quant/star/SRR1039520_Aligned.sortedByCoord.out.bam quant/star/SRR1039512_Aligned.sortedByCoord.out.bam quant/star/SRR1039517_Aligned.sortedByCoord.out.bam quant/star/SRR1039514_Aligned.sortedByCoord.out.bam"
 
 # 1. Per-sample RSeQC metrics (skips if already generated)
