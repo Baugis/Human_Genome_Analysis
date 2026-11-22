@@ -1,0 +1,11 @@
+name: qc
+channels:
+  - bioconda
+dependencies:
+  - deeptools
+  - multiqc
+  - rseqc
+  - ucsc-genepredtobed
+  - ucsc-gtftogenepred
+
+prefix: "/scratch/lustre/home/auvo8514/miniforge3/envs/qc"

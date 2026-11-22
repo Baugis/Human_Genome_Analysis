@@ -1,0 +1,15 @@
+samples:
+  - SRR1039520
+  - SRR1039512
+  - SRR1039517
+  - SRR1039514
+
+gencode_release: "50"
+genome_fa: "ref/GRCh38.primary_assembly.genome.fa"
+gtf: "ref/gencode.v50.primary_assembly.annotation.gtf"
+transcripts_fa: "ref/gencode.v50.transcripts.fa.gz"
+bed: "ref/gencode.v50.annotation.bed"
+pc_bed: "ref/gencode.v50.protein_coding.bed"
+sjdb_overhang: 62
+limit_genome_ram: 52000000000
+threads: 8

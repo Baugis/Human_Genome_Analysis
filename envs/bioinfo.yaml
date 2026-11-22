@@ -1,0 +1,16 @@
+name: bioinfo
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bwa
+  - fastp
+  - fastqc
+  - git
+  - salmon
+  - samtools
+  - sra-tools
+  - star
+  - subread
+
+prefix: "/scratch/lustre/home/auvo8514/miniforge3/envs/bioinfo"
